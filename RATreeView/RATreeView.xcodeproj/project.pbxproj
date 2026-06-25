@@ -73,6 +73,9 @@
 		06B623A61BF91AF90070DCA9 /* RATableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B623A31BF91AF90070DCA9 /* RATableView.h */; };
 		06B623A71BF91AF90070DCA9 /* RATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B623A41BF91AF90070DCA9 /* RATableView.m */; };
 		06B623A81BF91AF90070DCA9 /* RATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B623A41BF91AF90070DCA9 /* RATableView.m */; };
+		244AE5892FECFDC800259F39 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 244AE5882FECFDC800259F39 /* PrivacyInfo.xcprivacy */; };
+		244AE58A2FECFDC800259F39 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 244AE5882FECFDC800259F39 /* PrivacyInfo.xcprivacy */; };
+		244AE58B2FECFDC800259F39 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 244AE5882FECFDC800259F39 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +100,7 @@
 		06B2F7B61BFBE409004AE326 /* RABatchChangeEntityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RABatchChangeEntityTests.m; sourceTree = "<group>"; };
 		06B623A31BF91AF90070DCA9 /* RATableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATableView.h; sourceTree = "<group>"; };
 		06B623A41BF91AF90070DCA9 /* RATableView.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = RATableView.m; sourceTree = "<group>"; tabWidth = 2; };
+		244AE5882FECFDC800259F39 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		B535574B1801AC4700390489 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B53B974317D3840800A05E2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B53B974517D3840800A05E2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -211,6 +215,7 @@
 				B53B976917D3843600A05E2F /* RATreeView.h */,
 				B53B976A17D3843600A05E2F /* RATreeView.m */,
 				B59F730E198D6E42006BAED0 /* Private Files */,
+				244AE5882FECFDC800259F39 /* PrivacyInfo.xcprivacy */,
 			);
 			path = RATreeView;
 			sourceTree = "<group>";
@@ -413,6 +418,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = B53B973717D3840800A05E2F;
@@ -433,6 +439,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				244AE58B2FECFDC800259F39 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +447,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				244AE5892FECFDC800259F39 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +462,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				244AE58A2FECFDC800259F39 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
